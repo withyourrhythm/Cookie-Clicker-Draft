@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/background"
+    android:orientation="vertical"
+    tools:context=".Shopping">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/upgrades_text"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/light_grey"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Upgrades"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/grandma_text"
+                android:layout_width="330dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_full_edge"
+                android:backgroundTint="@color/light_grey"
+                android:drawableStart="@drawable/grandma_icon"
+                android:drawableTint="@color/black"
+                android:padding="5dp"
+                android:paddingStart="10dp"
+                android:text="  |   Grandma (+1 cookies per click)"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/grandma_buy_button"
+                android:layout_width="60dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_full_edge"
+                android:backgroundTint="@color/black"
+                android:drawableRight="@drawable/mini_cookie_icon"
+                android:drawableTint="@color/white"
+                android:padding="10dp"
+                android:text="10"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/farm_text"
+                android:layout_width="330dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_full_edge"
+                android:backgroundTint="@color/light_grey"
+                android:drawableStart="@drawable/farm_icon"
+                android:drawableTint="@color/black"
+                android:padding="5dp"
+                android:paddingStart="10dp"
+                android:text="  |   Farm (+5 cookies per click)"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/farm_buy_button"
+                android:layout_width="60dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_full_edge"
+                android:backgroundTint="@color/black"
+                android:drawableRight="@drawable/mini_cookie_icon"
+                android:drawableTint="@color/white"
+                android:padding="10dp"
+                android:text="50"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/mine_text"
+                android:layout_width="330dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_full_edge"
+                android:backgroundTint="@color/light_grey"
+                android:drawableStart="@drawable/mine_icon"
+                android:drawableTint="@color/black"
+                android:padding="5dp"
+                android:paddingStart="10dp"
+                android:text="  |   Mine (+10 cookies per click)"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/mine_buy_button"
+                android:layout_width="60dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_full_edge"
+                android:backgroundTint="@color/black"
+                android:drawableRight="@drawable/mini_cookie_icon"
+                android:drawableTint="@color/white"
+                android:padding="5dp"
+                android:text="250"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/factory_text"
+                android:layout_width="330dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_full_edge"
+                android:backgroundTint="@color/light_grey"
+                android:drawableStart="@drawable/factory_icon"
+                android:drawableTint="@color/black"
+                android:padding="5dp"
+                android:paddingStart="10dp"
+                android:text="  |   Factory (+25 cookies per click)"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/factory_buy_button"
+                android:layout_width="60dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_full_edge"
+                android:backgroundTint="@color/black"
+                android:drawableRight="@drawable/mini_cookie_icon"
+                android:drawableTint="@color/white"
+                android:text="1000"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/bank_text"
+                android:layout_width="330dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_full_edge"
+                android:backgroundTint="@color/light_grey"
+                android:drawableStart="@drawable/bank_icon"
+                android:drawableTint="@color/black"
+                android:padding="5dp"
+                android:paddingStart="10dp"
+                android:text="  |   Bank (+50 cookies per click)"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bank_buy_button"
+                android:layout_width="60dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_full_edge"
+                android:backgroundTint="@color/black"
+                android:drawableRight="@drawable/mini_cookie_icon"
+                android:drawableTint="@color/white"
+                android:text="5000"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/temple_text"
+                android:layout_width="330dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_full_edge"
+                android:backgroundTint="@color/light_grey"
+                android:drawableStart="@drawable/temple_icon"
+                android:drawableTint="@color/black"
+                android:padding="5dp"
+                android:paddingStart="10dp"
+                android:text="  |   Temple (+100 cookies per click)"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/temple_buy_button"
+                android:layout_width="60dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_full_edge"
+                android:backgroundTint="@color/black"
+                android:drawableRight="@drawable/mini_cookie_icon"
+                android:drawableTint="@color/white"
+                android:text="10000"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/alchemy_lab_text"
+                android:layout_width="330dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_full_edge"
+                android:backgroundTint="@color/light_grey"
+                android:drawableStart="@drawable/alchemy_lab_icon"
+                android:drawableTint="@color/black"
+                android:padding="5dp"
+                android:paddingStart="10dp"
+                android:text="  |   Alchemy Lab (+250 cookies per click)"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/alchemy_lab_buy_button"
+                android:layout_width="60dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_full_edge"
+                android:backgroundTint="@color/black"
+                android:drawableRight="@drawable/mini_cookie_icon"
+                android:drawableTint="@color/white"
+                android:text="100000"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/portal_text"
+                android:layout_width="330dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_full_edge"
+                android:backgroundTint="@color/light_grey"
+                android:drawableStart="@drawable/portal_icon"
+                android:drawableTint="@color/black"
+                android:padding="5dp"
+                android:paddingStart="10dp"
+                android:text="  |   Portal (+500 cookies per click)"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/portal_buy_button"
+                android:layout_width="60dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_full_edge"
+                android:backgroundTint="@color/black"
+                android:drawableRight="@drawable/mini_cookie_icon"
+                android:drawableTint="@color/white"
+                android:text="5000000"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="124dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/cookie_button"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_gravity="bottom"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_full_edge"
+                android:backgroundTint="@color/light_grey"
+                android:drawableStart="@drawable/cookie_icon"
+                android:drawableTint="@color/black"
+                android:paddingStart="25dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/shopping_button"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_gravity="bottom"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_full_edge"
+                android:backgroundTint="@color/teal_700"
+                android:drawableStart="@drawable/shopping_cart_icon"
+                android:drawableTint="@color/black"
+                android:paddingStart="25dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/stat_button"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_gravity="bottom"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_full_edge"
+                android:backgroundTint="@color/light_grey"
+                android:drawableStart="@drawable/chart_icon"
+                android:drawableTint="@color/black"
+                android:paddingStart="20dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/setting_button"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_gravity="bottom"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_full_edge"
+                android:backgroundTint="@color/light_grey"
+                android:drawableStart="@drawable/settings_icon"
+                android:drawableTint="@color/black"
+                android:paddingStart="25dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

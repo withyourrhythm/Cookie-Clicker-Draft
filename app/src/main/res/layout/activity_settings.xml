@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/background"
+    android:orientation="vertical"
+    tools:context=".Settings">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/light_grey"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="Settings"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Switch
+            android:id="@+id/music_switch"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_full_edge"
+            android:backgroundTint="@color/light_grey"
+            android:padding="10dp"
+            android:paddingStart="25dp"
+            android:text="Music"
+            android:textColor="@color/black"
+            android:paddingEnd="20dp"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/custom_top_edges"
+        android:padding="10dp"
+        android:paddingStart="25dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        android:text="Background Color:" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/light_grey"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:padding="3dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/white_bg_button"
+            android:layout_width="60dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_full_edge"
+            android:backgroundTint="@color/white"
+            android:text="WHITE"
+            android:layout_margin="5dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/light_blue_bg_button"
+            android:layout_width="60dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_full_edge"
+            android:backgroundTint="@color/light_blue"
+            android:text="BLUE"
+            android:layout_margin="5dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/light_green_bg_button"
+            android:layout_width="60dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_full_edge"
+            android:backgroundTint="@color/light_green"
+            android:text="GREEN"
+            android:layout_margin="5dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/light_pink_bg_button"
+            android:layout_width="60dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_full_edge"
+            android:backgroundTint="@color/light_pink"
+            android:text="PINK"
+            android:layout_margin="5dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/light_purple_bg_button"
+            android:layout_width="60dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_full_edge"
+            android:backgroundTint="@color/light_purple"
+            android:text="PURPLE"
+            android:layout_margin="5dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/custom_bottom_edges"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:padding="3dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/light_red_bg_button"
+            android:layout_width="60dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_full_edge"
+            android:backgroundTint="@color/light_red"
+            android:text="RED"
+            android:layout_margin="5dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/light_orange_bg_button"
+            android:layout_width="60dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_full_edge"
+            android:backgroundTint="@color/light_orange"
+            android:text="ORANGE"
+            android:layout_margin="5dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/light_yellow_bg_button"
+            android:layout_width="60dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_full_edge"
+            android:backgroundTint="@color/light_yellow"
+            android:text="YELLOW"
+            android:layout_margin="5dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/aqua_bg_button"
+            android:layout_width="60dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_full_edge"
+            android:backgroundTint="@color/aqua"
+            android:text="AQUA"
+            android:layout_margin="5dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/black_bg_button"
+            android:layout_width="60dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_full_edge"
+            android:backgroundTint="@color/black"
+            android:text="BLACK"
+            android:layout_margin="5dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cookie_button"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_full_edge"
+            android:backgroundTint="@color/light_grey"
+            android:drawableStart="@drawable/cookie_icon"
+            android:drawableTint="@color/black"
+            android:paddingStart="25dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/shopping_button"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_full_edge"
+            android:backgroundTint="@color/light_grey"
+            android:drawableStart="@drawable/shopping_cart_icon"
+            android:drawableTint="@color/black"
+            android:paddingStart="25dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/stat_button"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_full_edge"
+            android:backgroundTint="@color/light_grey"
+            android:drawableStart="@drawable/chart_icon"
+            android:drawableTint="@color/black"
+            android:paddingStart="20dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/setting_button"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_full_edge"
+            android:backgroundTint="@color/teal_700"
+            android:drawableStart="@drawable/settings_icon"
+            android:drawableTint="@color/black"
+            android:paddingStart="25dp" />
+    </LinearLayout>
+
+</LinearLayout>

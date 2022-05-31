@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/beati/AndroidStudioProjects/CookieClicker/app/src/main/res/drawable/booster_icon.xml" value="0.135" />
+        <entry key="..\:/Users/beati/AndroidStudioProjects/CookieClicker/app/src/main/res/drawable/chart_icon.xml" value="0.135" />
+        <entry key="..\:/Users/beati/AndroidStudioProjects/CookieClicker/app/src/main/res/drawable/cookie_icon.xml" value="0.135" />
+        <entry key="..\:/Users/beati/AndroidStudioProjects/CookieClicker/app/src/main/res/drawable/custom_bottom_edges.xml" value="0.135" />
+        <entry key="..\:/Users/beati/AndroidStudioProjects/CookieClicker/app/src/main/res/drawable/custom_button.xml" value="0.135" />
+        <entry key="..\:/Users/beati/AndroidStudioProjects/CookieClicker/app/src/main/res/drawable/custom_button_edge.xml" value="0.135" />
+        <entry key="..\:/Users/beati/AndroidStudioProjects/CookieClicker/app/src/main/res/drawable/custom_cookie_icon.xml" value="0.135" />
+        <entry key="..\:/Users/beati/AndroidStudioProjects/CookieClicker/app/src/main/res/drawable/custom_edge2.xml" value="0.135" />
+        <entry key="..\:/Users/beati/AndroidStudioProjects/CookieClicker/app/src/main/res/drawable/factory_icon.xml" value="0.135" />
+        <entry key="..\:/Users/beati/AndroidStudioProjects/CookieClicker/app/src/main/res/drawable/farm_icon.xml" value="0.135" />
+        <entry key="..\:/Users/beati/AndroidStudioProjects/CookieClicker/app/src/main/res/drawable/grandma_icon.xml" value="0.135" />
+        <entry key="..\:/Users/beati/AndroidStudioProjects/CookieClicker/app/src/main/res/drawable/mini_cookie_icon.xml" value="0.135" />
+        <entry key="..\:/Users/beati/AndroidStudioProjects/CookieClicker/app/src/main/res/drawable/rocket_icon.xml" value="0.135" />
+        <entry key="..\:/Users/beati/AndroidStudioProjects/CookieClicker/app/src/main/res/drawable/shopping_cart_icon.xml" value="0.135" />
+        <entry key="..\:/Users/beati/AndroidStudioProjects/CookieClicker/app/src/main/res/layout/activity_booster.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/beati/AndroidStudioProjects/CookieClicker/app/src/main/res/layout/activity_boosters.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/beati/AndroidStudioProjects/CookieClicker/app/src/main/res/layout/activity_cookie.xml" value="0.2" />
+        <entry key="..\:/Users/beati/AndroidStudioProjects/CookieClicker/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/beati/AndroidStudioProjects/CookieClicker/app/src/main/res/layout/activity_settings.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/beati/AndroidStudioProjects/CookieClicker/app/src/main/res/layout/activity_shopping.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/beati/AndroidStudioProjects/CookieClicker/app/src/main/res/layout/activity_statistics.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/beati/AndroidStudioProjects/CookieClicker/app/src/main/res/layout/activity_upgrades.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/beati/AndroidStudioProjects/CookieClicker/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.124" />
+        <entry key="..\:/Users/beati/AndroidStudioProjects/CookieClicker/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.135" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

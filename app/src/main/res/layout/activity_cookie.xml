@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/background"
+    android:orientation="vertical"
+    tools:context=".Cookie" >
+
+    <TextView
+        android:id="@+id/scrollingText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="25sp"
+        android:textColor="@color/actual_black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:singleLine="true"
+        android:scrollHorizontally="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit ="marquee_forever"/>
+
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="@color/actual_black"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:text="0" />
+
+    <ImageView
+        android:id="@+id/cookieImage"
+        android:layout_width="match_parent"
+        android:layout_height="344dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/cookie_clicker"
+        app:tint="@color/actual_black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="5"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cookie_button"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:backgroundTint="@color/teal_700"
+            android:paddingStart="25dp"
+            android:drawableTint="@color/black"
+            android:background="@drawable/custom_full_edge"
+            android:drawableStart="@drawable/cookie_icon" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/shopping_button"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:backgroundTint="@color/light_grey"
+            android:paddingStart="25dp"
+            android:drawableTint="@color/black"
+            android:background="@drawable/custom_full_edge"
+            android:drawableStart="@drawable/shopping_cart_icon" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/stat_button"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:backgroundTint="@color/light_grey"
+            android:paddingStart="20dp"
+            android:drawableTint="@color/black"
+            android:background="@drawable/custom_full_edge"
+            android:drawableStart="@drawable/chart_icon" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/setting_button"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:backgroundTint="@color/light_grey"
+            android:paddingStart="25dp"
+            android:drawableTint="@color/black"
+            android:background="@drawable/custom_full_edge"
+            android:drawableStart="@drawable/settings_icon" />
+    </LinearLayout>
+
+</LinearLayout>

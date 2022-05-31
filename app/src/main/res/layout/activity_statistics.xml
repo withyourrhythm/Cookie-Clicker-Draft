@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/background"
+    android:orientation="vertical"
+    tools:context=".Statistics">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/light_grey"
+        android:padding="10dp"
+        android:text="Statistics"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="45dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_full_edge"
+            android:padding="10dp"
+            android:paddingStart="15dp"
+            android:text="Cookies in bank:"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cookies_in_bank_stat"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_full_edge"
+            android:padding="10dp"
+            android:paddingStart="15dp"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="45dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_full_edge"
+            android:padding="10dp"
+            android:paddingStart="15dp"
+            android:text="Total clicks:"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/total_click_stat"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_full_edge"
+            android:padding="10dp"
+            android:paddingStart="15dp"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="45dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_full_edge"
+            android:padding="10dp"
+            android:paddingStart="15dp"
+            android:text="Cookies per click:"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cookies_per_click_stat"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_full_edge"
+            android:padding="10dp"
+            android:paddingStart="15dp"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="45dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_full_edge"
+            android:padding="10dp"
+            android:paddingStart="15dp"
+            android:text="Upgrades bought:"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/upgrades_bought_stat"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_full_edge"
+            android:padding="10dp"
+            android:paddingStart="15dp"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="45dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_full_edge"
+            android:padding="10dp"
+            android:paddingStart="15dp"
+            android:text="Max cookie amount in bank:"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/max_cookie_amount_in_bank_stat"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_full_edge"
+            android:padding="10dp"
+            android:paddingStart="15dp"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cookie_button"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:backgroundTint="@color/light_grey"
+            android:paddingStart="25dp"
+            android:drawableTint="@color/black"
+            android:background="@drawable/custom_full_edge"
+            android:drawableStart="@drawable/cookie_icon" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/shopping_button"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:backgroundTint="@color/light_grey"
+            android:paddingStart="25dp"
+            android:drawableTint="@color/black"
+            android:background="@drawable/custom_full_edge"
+            android:drawableStart="@drawable/shopping_cart_icon" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/stat_button"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:backgroundTint="@color/teal_700"
+            android:paddingStart="20dp"
+            android:drawableTint="@color/black"
+            android:background="@drawable/custom_full_edge"
+            android:drawableStart="@drawable/chart_icon" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/setting_button"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:backgroundTint="@color/light_grey"
+            android:paddingStart="25dp"
+            android:drawableTint="@color/black"
+            android:background="@drawable/custom_full_edge"
+            android:drawableStart="@drawable/settings_icon" />
+    </LinearLayout>
+
+</LinearLayout>
